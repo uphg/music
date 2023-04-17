@@ -1,0 +1,26 @@
+.home {
+  height: var(--container-height);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.home-wrap {
+  padding: 20px 24px;
+
+  .recommend > .title,
+  .my-music > .title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888786;
+  }
+
+  .recommend {
+    padding-top: 12px;
+  }
+
+  .my-music {
+    padding-top: 40px;
+  }
+}

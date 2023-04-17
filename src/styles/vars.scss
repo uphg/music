@@ -1,0 +1,25 @@
+:root {
+  --container-width: 100vw;
+  --container-height: 100vh;
+  --song-width: 84vw;
+}
+
+@media screen and (min-width: 510px) {
+  :root {
+    --container-width: 510px;
+    --song-width: calc(510px - 80px);
+  }
+}
+
+@media screen and (min-height: 1024px){
+  :root {
+    --container-height: 1024px; 
+  }
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    --container-width: 375px;
+    --song-width: 315px;
+  }
+}

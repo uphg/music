@@ -1,0 +1,10 @@
+
+.player {
+  width: var(--container-width);
+  height: var(--container-height);
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  position: relative;
+}
+
